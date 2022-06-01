@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/App.css";
 const App = () => {
-  const [wordLimit, setwordLimit] = useState();
+  const [wordLimit, setwordLimit] = useState(50);
   const [font, setFont] = useState();
   const [para, setPara] = useState();
   const [charCount, setCharCount] = useState(0);
