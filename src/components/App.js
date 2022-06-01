@@ -45,8 +45,8 @@ const App = () => {
         }}
       />
       <br />
-      <div id="word-counter" >{charCount}</div> <br />
-      <div id="char-counter">{wordCount}</div> <br />
+      <div id="word-counter" >{wordCount}</div> <br />
+      <div id="char-counter">{charCount}</div> <br />
     </div>
   );
 };
