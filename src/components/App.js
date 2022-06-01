@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/App.css";
 const App = () => {
-  const [wordLimit, setwordLimit] = useState(50);
+  const [wordLimit, setwordLimit] = useState();
   const [font, setFont] = useState();
   const [para, setPara] = useState();
   const [charCount, setCharCount] = useState(0);
@@ -24,7 +24,8 @@ const App = () => {
         type="number"
         value={wordLimit}
         id="char-limit-input"
-        default="50"
+        // default={50}
+        defaultValue={50}
         onChange={(e) => {
           setwordLimit(e.target.value);
         }}
